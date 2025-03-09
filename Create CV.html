@@ -6,19 +6,21 @@
     <title>Curriculum Vitae</title>
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Belanosima:wght@400;600;700&family=Grand+Hotel&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
 
     body {
         font-family: 'Poppins', sans-serif;
-        margin: 60px;
-        background-color: #6cffce;
-        justify-content: center; 
-        align-items: center; 
-        height: 100vh; 
+        background-color: #cbfbca;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
     }
 
-
     .cv-container {
-        align-items: center;
+        
         max-width: 800px;
         background: white;
         padding: 50px;
@@ -27,18 +29,17 @@
         border-radius: 10px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         width: 800px;
-        height: 1300px;
+        height: auto;
         margin: 90px;
     }
 
 
 
-    h1 {
+    .heading1 {
         font-family: 'Playfair Display', serif;
-        font-size: 38px;
+        font-size: 35px;
         text-decoration: underline double;
-        
-        padding: 0px;
+        text-align: center;
     }
 
     .header {
@@ -54,8 +55,8 @@
     }
 
     .text{
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 25px;
+        font-family:'Raleway';
+        font-size: 30px;
     }
 
     hr {
@@ -103,15 +104,19 @@
         text-align: left;
     }
 
+    .job{
+        padding-right: 55px;
+    }
+
     </style>
 </head>
 <body>
     <div class="cv-container">
-        <h1>CURRICULUM VITAE</h1>
+        <h1 class="heading1">CURRICULUM VITAE</h1>
         <div class="header">
             <div class="info">
                 <p>
-                    <strong class="text">MOEUN KANIKA</strong><br>#31, St.201, Sangkat Beung Tumpun,<br>
+                    <strong class="text">MOEUN KANIKA</strong><br><strong>Address: </strong>#201, St.201, Sangkat Beung Tumpun,<br>
                    Khan Mean Chey, Phnom Penh, Cambodia<br>
                    <strong>Tel:</strong> 097 486 2565
                 </p>
@@ -139,6 +144,11 @@
                     <span class="bullet">●</span>
                     <span class="p1">Date of Birth</span>
                     <span class="p2">: 10 Augest 2006</span>
+                </li>
+                <li>
+                    <span class="bullet">●</span>
+                    <span class="p1">Place of Birth</span>
+                    <span class="p2">: Trapeang Kes village, Tram Kak commune, Tram Kak district, Takeo province</span>
                 </li>
                 <li>
                     <span class="bullet">●</span>
@@ -204,26 +214,44 @@
                 <li>
                     <span class="bullet">●</span>
                     <span class="p1">July-Present</span>
-                    <span class="p2">: Web designer at BIC (Bonna Institute of Cambodia)</span>
+                    <span class="p2">: Web designer.</span>
                 </li>
             </ul>
         
-            <h2>LANGUAGES</h2>
+            <h2>LANGUAGES AND SKILLS</h2>
             <ul>
                 <li>
                     <span class="bullet">●</span>
-                    <span class="p1">English</span>
-                    <span class="p2">: Studied at CAS</span>
+                    <span class="p1">Khmer</span>
+                    <span class="p2">: Native</span>
                 </li>
                 <li>
                     <span class="bullet">●</span>
-                    <span class="p1">Chines</span>
-                    <span class="p2">: Studied at CAS.</span>
+                    <span class="p1">English</span>
+                    <span class="p2">: Intermediate</span>
+                </li>
+                <li>
+                    <span class="bullet">●</span>
+                    <span class="p1">Web designer</span>
+                    <span class="p2">: UX/UI, HTML, CSS, and JavaScript<span>
+                </li>
+                <li>
+                    <span class="bullet">●</span>
+                    <span class="p1">Computer</span>
+                    <span class="p2">: Microsoft Offices (Word, Excel, PowerPoint)</span>
                 </li>
             </ul>
-            
-        </div>
-
+            <h2>JOB RESPONSIBLLTIES</h2>
+            <ul>
+                <li>
+                    <span class="bullet">●</span>
+                    <span class="p2">Love for health, Respect for time, Responsible in work, Good relationships, Honesty, Teamwork, Adaptability, Perseverance and patience.</span>
+                </li>
+                <li>
+                    <span class="bullet">●</span>
+                    <span class="p2">In my free time, i enjoy researching new things and i like listening to music.</span>
+                </li>
+            </ul>
         
     </div>
 </body>
