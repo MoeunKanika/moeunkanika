@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+    <!-- Linking Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Linking Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="stylesheet" href="Coffee.css">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <img src="img/logo1.png" alt="Logo" class="image-logo" >
+                <!-- <h2 class="logo-text"> Coffee</h2> -->
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li> 
+            </ul>
+
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section -->
+         <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details" data-aos="fade-right">
+                    <h2 class="title">Best Coffee</h2>
+                    <h3 class="subtitle">Make your day great with our special coffee!</h3>
+                    <p class="description">Welcome to our coffee paradise, where every bean tells a story and every cup sparks joy.</p>
+
+                    <div class="buttons">
+                        <a href="#" class="button order-now">Order Now</a>
+                        <a href="#" class="button contact-us">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper" data-aos="zoom-in">
+                    <img src="img/Hero.png" alt="Hero" class="hero-image">
+                </div>
+            </div>
+         </section>
+
+         <!-- About section -->
+          <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-imge-wrapper" data-aos="zoom-in">
+                    <img src="img/Conversation.png" alt="About" class="about-image">
+                </div>
+                <div class=" " data-aos="fade-left">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">
+                        At Coffee House in Berndorf, Germany, we pride ourselves on begin a go-to destination for coffee lovers and conversation seekers alike. We're dedicated to providing an axceptional coffee experience in a cozy and inviting atmosphere, where guests can relax, unwind, and enjoy their time in comfort.                      
+                    </p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+        <!-- Menu section -->
+         <section class="menu-section" id="menu" >
+            <h2 class="section-title">Our Menu</h2>
+            <div class="sction-content">
+                <ul class="menu-list" >
+                    <li class="menu-item" data-aos="fade-down">
+                        <img src="img/Hot Beverages.png" alt="Hot Beverages" class="menu-image">
+                        <div class="menu-details"> 
+                            <h3 class="name">Hot Beverages</h3>
+                            <p class="text">Wide range of Steaming hot coffee to make you fresh and light.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item" data-aos="fade-down">
+                        <img src="img/Cold Beverages.png" alt="Cold Beverages" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="name">Cold Beverages</h3>
+                            <p class="text">Creamy and frothy cold coffee to make you cool.</p>   
+                        </div>
+                    </li>
+                    <li class="menu-item" data-aos="fade-down">
+                        <img src="img/Refreshment.png" alt="Refreshment" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="name">Refreshment</h3>
+                            <p class="text">Fruit and icy refreshing drink to make feel refresh.</p>      
+                        </div>
+                    </li>
+                    <li class="menu-item" data-aos="fade-down">
+                        <img src="img/Special Combos.png" alt="Special Combos" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="name">Special Combos</h3>
+                            <p class="text">Your favorite eating and dring combations.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item" data-aos="fade-down">
+                        <img src="img/Dessert.png" alt="Dessert" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="name">Dessert</h3>
+                            <p class="text">Satiate your palate and take you on a culinary treat.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item" data-aos="fade-down">
+                        <img src="img/burger & French Fries.png" alt="burger & French Fries" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="name">Burger & French Fries</h3>
+                            <p class="text">Quick bites to satisfy your small size hunger.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+         </section>
+
+         <!-- Testimonials section -->
+         <section class="testimonials-section" id="testimonials"> 
+            <h2 class="section-title" data-aos="fade-down">Testimonials</h2>
+            <div class="section-content" data-aos="fade-down">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper" >
+                        <ul class="testimonials-list swiper-wrapper" >
+                            <li class="testimonial swiper-slide">
+                                <img src="img/Kanha Lee.png" alt="Kanha Lee" class="user-image">
+                                <h3 class="name">Kanha Lee</h3>
+                                <i class="feedback">Loved the French roast. Perfectly balanced and rich. Will order again!</i>
+                            </li>
+
+                            <li class="testimonial swiper-slide">
+                                <img src="img/Voeun SreyVannak.png" alt="Voeun SreyVannak" class="user-image">
+                                <h3 class="name">Voeun SreyVannak</h3>
+                                <i class="feedback">Loved the French roast. Perfectly balanced and rich. Will order again!</i>
+                            </li>
+
+                            <li class="testimonial swiper-slide">
+                                <img src="img/Heng Povnarak.png" alt="Heng Povnarak" class="user-image">
+                                <h3 class="name">Heng Povnarak</h3>
+                                <i class="feedback">Loved the French roast. Perfectly balanced and rich. Will order again!</i>
+                            </li>
+
+                            <li class="testimonial swiper-slide">
+                                <img src="img/Kanika.png" alt="Moeun Kanika" class="user-image">
+                                <h3 class="name">Moeun Kanika</h3>
+                                <i class="feedback">Loved the French roast. Perfectly balanced and rich. Will order again!</i>
+                            </li>
+
+                            <li class="testimonial swiper-slide">
+                                <img src="img/Heang Srey Neang.png" alt="Heang Srey Neang" class="user-image">
+                                <h3 class="name">Heang Srey Neang</h3>
+                                <i class="feedback">Loved the French roast. Perfectly balanced and rich. Will order again!</i>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- Gallery section -->
+         <section class="gallery-section" id="gallery">
+            <h2 class="section-title" data-aos="fade-down">Gallery</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item" data-aos="fade-down">
+                        <img src="img/gallery1.png" alt="Gallery" class="gallery-image" >
+                    </li>
+                    <li class="gallery-item"data-aos="fade-down">
+                        <img src="img/gallery2.png" alt="Gallery" class="gallery-image" >
+                    </li>
+                    <li class="gallery-item" data-aos="fade-down">
+                        <img src="img/gallery3.png" alt="Gallery" class="gallery-image" >
+                    </li>
+                    <li class="gallery-item" data-aos="fade-down">
+                        <img src="img/gallery4.png" alt="Gallery" class="gallery-image" >
+                    </li>
+                    <li class="gallery-item" data-aos="fade-down">
+                        <img src="img/gallery5.png" alt="Gallery" class="gallery-image" >
+                    </li>
+                    <li class="gallery-item" data-aos="fade-down">
+                        <img src="img/gallery6.png" alt="Gallery" class="gallery-image" >
+                    </li>
+                </ul>
+            </div>
+         </section>
+
+
+         <!-- Contact section -->
+          <section class="contact-section">
+            <h2 class="section-title" data-aos="fade-down">Contact Us</h2>
+            <div class="section-content">
+                <ul class="contact-info-list" data-aos="fade-right">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>123BT, 10St., Sangkat Boeng Trabaek, Khan Chamkarmon, Phnom Penh</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>info@kanikacoffee.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(+855) 768 328 762</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Monday - Friday: 9:00 AM - 5:00PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Saturday: 10:00 AM - 3:00PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Sunday: Closed</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>www.codingkanikaweb.com</p>
+                    </li>
+                </ul>
+
+                <form action="#" class="contact-form" data-aos="fade-down">
+                    <input type="text"placeholder="Your name" class="form-input" required>
+                    <input type="email"placeholder="Your email" class="form-input" required>
+                    <textarea placeholder="Your message" class="form-input" required></textarea>
+                    <button class="submit-button">Submit</button>
+                </form>
+            </div>
+          </section>
+
+          <!-- Footer section -->
+          <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text"> 2025 Coffee Kanika</p>
+
+                <div class="social-link-list">
+                     <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                     <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                     <a href="#" class="social-link"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Privacy policy</a>
+                    <span class="separator"></span>
+                    <a href="#" class="policy-link">Refund policy</a>
+                </p>
+            </div>
+          </footer>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- Linking Swiper script -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+     <!-- Linking custom script -->
+    <script src="Coffee.js"></script>
+</body>
+</html>
